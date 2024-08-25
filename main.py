@@ -238,6 +238,8 @@ def edit_post(post_id):
 # git push -u <remote name)> <branch name>*
 # git push -u origin main
 
+# http://127.0.0.1:57162/?code=2de9abbdb777de080e2e&state=4bae430d33e043068ad69eea86c446cd
+
 # TODO: Use a decorator so only an admin user can delete a post
 @app.route("/delete/<int:post_id>")
 @admin_only
